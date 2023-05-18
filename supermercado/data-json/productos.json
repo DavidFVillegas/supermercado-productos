@@ -1,0 +1,14 @@
+{
+    "productos": [
+      {
+        "id": 1,
+        "nombre": "Smartphone Samsung Galaxy S21",
+        "precio": 900000,
+        "peso": "0.5kg",
+        "categoria": "tecnología",
+        "características": "Smartphone de última generación",
+        "url_imagen": "https://tienda.claro.com.co/wcsstore/Claro/images/catalog/equipos/646x1000/70044592.jpg"
+      }
+    ]
+  }
+  
