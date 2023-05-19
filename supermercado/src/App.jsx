@@ -1,11 +1,8 @@
-import './App.css'
-
-import React, { useState } from 'react';
-import Navbar from './Navbar';
-import Productos from './Productos';
-import data from '../data-json/productos.json';
-
-
+import React, { useState } from "react";
+import Navbar from "./Navbar";
+import Productos from "./Productos";
+import data from "../data-json/productos.json";
+import "./App.css";
 
 const App = () => {
   const [productos, setProductos] = useState(data.productos);
@@ -13,7 +10,7 @@ const App = () => {
 
   const handleClick = (opcion) => {
     setPagina(opcion);
-  }
+  };
 
   return (
     <div>
@@ -21,7 +18,6 @@ const App = () => {
       {pagina === "productos" && <Productos productos={productos} />}
     </div>
   );
-}
+};
 
 export default App;
-
