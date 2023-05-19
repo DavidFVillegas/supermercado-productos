@@ -1,14 +1,457 @@
 {
-    "productos": [
+  "productos": [
+    {
+      "id": 1,
+      "nombre": "Res de primera",
+      "precio": "$40.000 COP",
+      "peso": "Peso: 1kg",
+      "categoria": "Categoría: Carnes",
+      "características": "Descripción: Carne de res de alta calidad",
+      "url_imagen": "https://ejemplo.com/imagen1.jpg"
+    },
+    {
+      "id": 2,
+      "nombre": "Pollo entero",
+      "precio": "$25.000 COP",
+      "peso": "Peso: 1.2kg",
+      "categoria": "Categoría: Carnes",
+      "características": "Descripción: Pollo fresco entero",
+      "url_imagen": "https://ejemplo.com/imagen2.jpg"
+    },
+    {
+      "id": 3,
+      "nombre": "Manzanas rojas",
+      "precio": "$5.000 COP",
+      "peso": "Peso: 1kg",
+      "categoria": "Categoría: Frutas",
+      "características": "Descripción: Manzanas rojas dulces y crujientes",
+      "url_imagen": "https://ejemplo.com/imagen3.jpg"
+    },
+    {
+      "id": 4,
+      "nombre": "Naranjas",
+      "precio": "$4.000 COP",
+      "peso": "Peso: 1kg",
+      "categoria": "Categoría: Frutas",
+      "características": "Descripción: Naranjas frescas y jugosas",
+      "url_imagen": "https://ejemplo.com/imagen4.jpg"
+    },
+    {
+      "id": 5,
+      "nombre": "Espinaca",
+      "precio": "$3.000 COP",
+      "peso": "Peso: 0.5kg",
+      "categoria": "Categoría: Verduras",
+      "características": "Descripción: Espinaca fresca",
+      "url_imagen": "https://ejemplo.com/imagen5.jpg"
+    },
+
+    {
+      "id": 6,
+      "nombre": "Zanahorias",
+      "precio": "$3.000 COP",
+      "peso": "Peso: 0.5kg",
+      "categoria": "Categoría: Verduras",
+      "características": "Descripción: Zanahorias frescas y crujientes",
+      "url_imagen": "https://ejemplo.com/imagen6.jpg"
+    },
+    {
+      "id": 7,
+      "nombre": "Arroz blanco",
+      "precio": "$8.000 COP",
+      "peso": "Peso: 1kg",
+      "categoria": "Categoría: Granos",
+      "características": "Descripción: Arroz blanco de alta calidad",
+      "url_imagen": "https://ejemplo.com/imagen7.jpg"
+    },
+    {
+      "id": 8,
+      "nombre": "Leche entera",
+      "precio": "$2.500 COP",
+      "peso": "Peso: 1L",
+      "categoria": "Categoría: Lácteos",
+      "características": "Descripción: Leche entera fresca",
+      "url_imagen": "https://ejemplo.com/imagen8.jpg"
+    },
+    {
+      "id": 9,
+      "nombre": "Huevos grandes",
+      "precio": "$6.000 COP",
+      "peso": "Peso: 12 unidades",
+      "categoria": "Categoría: Huevos",
+      "características": "Descripción: Docena de huevos grandes",
+      "url_imagen": "https://ejemplo.com/imagen9.jpg"
+    },
+    {
+      "id": 10,
+      "nombre": "Aceite de girasol",
+      "precio": "$10.000 COP",
+      "peso": "Peso: 1L",
+      "categoria": "Categoría: Despensa",
+      "características": "Descripción: Aceite de girasol puro",
+      "url_imagen": "https://ejemplo.com/imagen10.jpg"
+    },
+    {
+        "id": 11,
+        "nombre": "Harina de trigo",
+        "precio": "$5.000 COP",
+        "peso": "Peso: 1kg",
+        "categoria": "Categoría: Despensa",
+        "características": "Descripción: Harina de trigo de alta calidad",
+        "url_imagen": "https://ejemplo.com/imagen11.jpg"
+      },
       {
-        "id": 1,
+        "id": 12,
+        "nombre": "Cerdo magro",
+        "precio": "$30.000 COP",
+        "peso": "Peso: 1kg",
+        "categoria": "Categoría: Carnes",
+        "características": "Descripción: Cerdo magro fresco",
+        "url_imagen": "https://ejemplo.com/imagen12.jpg"
+      },
+      {
+        "id": 13,
+        "nombre": "Queso mozarella",
+        "precio": "$10.000 COP",
+        "peso": "Peso: 0.5kg",
+        "categoria": "Categoría: Lácteos",
+        "características": "Descripción: Queso mozarella fresco y suave",
+        "url_imagen": "https://ejemplo.com/imagen13.jpg"
+      },
+      {
+        "id": 14,
+        "nombre": "Frijoles negros",
+        "precio": "$6.000 COP",
+        "peso": "Peso: 1kg",
+        "categoria": "Categoría: Granos",
+        "características": "Descripción: Frijoles negros secos",
+        "url_imagen": "https://ejemplo.com/imagen14.jpg"
+      },
+      {
+        "id": 15,
+        "nombre": "Plátanos maduros",
+        "precio": "$4.000 COP",
+        "peso": "Peso: 1kg",
+        "categoria": "Categoría: Frutas",
+        "características": "Descripción: Plátanos maduros y dulces",
+        "url_imagen": "https://ejemplo.com/imagen15.jpg"
+      },
+      {
+        "id": 16,
+        "nombre": "Papas blancas",
+        "precio": "$4.000 COP",
+        "peso": "Peso: 1kg",
+        "categoria": "Categoría: Verduras",
+        "características": "Descripción: Papas blancas frescas",
+        "url_imagen": "https://ejemplo.com/imagen16.jpg"
+      },
+      {
+        "id": 17,
+        "nombre": "Yogurt natural",
+        "precio": "$3.000 COP",
+        "peso": "Peso: 500g",
+        "categoria": "Categoría: Lácteos",
+        "características": "Descripción: Yogurt natural sin azúcar",
+        "url_imagen": "https://ejemplo.com/imagen17.jpg"
+      },
+      {
+        "id": 18,
+        "nombre": "Lentejas",
+        "precio": "$5.000 COP",
+        "peso": "Peso: 1kg",
+        "categoria": "Categoría: Granos",
+        "características": "Descripción: Lentejas secas",
+        "url_imagen": "https://ejemplo.com/imagen18.jpg"
+      },
+      {
+        "id": 19,
+        "nombre": "Azúcar blanca",
+        "precio": "$4.000 COP",
+        "peso": "Peso: 1kg",
+        "categoria": "Categoría: Despensa",
+        "características": "Descripción: Azúcar blanca refinada",
+        "url_imagen": "https://ejemplo.com/imagen19.jpg"
+      },
+      {
+        "id": 20,
+        "nombre": "Huevos medianos",
+        "precio": "$5.000 COP",
+        "peso": "Peso: 12 unidades",
+        "categoria": "Categoría: Huevos",
+        "características": "Descripción: Docena de huevos medianos",
+        "url_imagen": "https://ejemplo.com/imagen20.jpg"
+      },
+      {
+        "id": 21,
+        "nombre": "Medias deportivas",
+        "precio": "$10.000 COP",
+        "peso": "Peso: 0.1kg",
+        "categoria": "Categoría: Ropa y Accesorios",
+        "características": "Descripción: Medias deportivas transpirables",
+        "url_imagen": "https://ejemplo.com/imagen21.jpg"
+      },
+      {
+        "id": 22,
+        "nombre": "Camiseta deportiva",
+        "precio": "$40.000 COP",
+        "peso": "Peso: 0.3kg",
+        "categoria": "Categoría: Ropa y Accesorios",
+        "características": "Descripción: Camiseta deportiva, material transpirable",
+        "url_imagen": "https://ejemplo.com/imagen22.jpg"
+      },
+      {
+        "id": 23,
+        "nombre": "Jeans para hombre",
+        "precio": "$80.000 COP",
+        "peso": "Peso: 0.8kg",
+        "categoria": "Categoría: Ropa y Accesorios",
+        "características": "Descripción: Jeans azul clásico, corte recto",
+        "url_imagen": "https://ejemplo.com/imagen23.jpg"
+      },
+      {
+        "id": 24,
+        "nombre": "Pijama de algodón",
+        "precio": "$60.000 COP",
+        "peso": "Peso: 0.5kg",
+        "categoria": "Categoría: Ropa y Accesorios",
+        "características": "Descripción: Pijama de algodón, manga larga, cómoda",
+        "url_imagen": "https://ejemplo.com/imagen24.jpg"
+      },
+      {
+        "id": 25,
+        "nombre": "Chaqueta impermeable",
+        "precio": "$100.000 COP",
+        "peso": "Peso: 0.9kg",
+        "categoria": "Categoría: Ropa y Accesorios",
+        "características": "Descripción: Chaqueta impermeable, ideal para días lluviosos",
+        "url_imagen": "https://ejemplo.com/imagen25.jpg"
+      },
+      {
+        "id": 26,
+        "nombre": "Camisa casual para hombre",
+        "precio": "$70.000 COP",
+        "peso": "Peso: 0.3kg",
+        "categoria": "Categoría: Ropa y Accesorios",
+        "características": "Descripción: Camisa de algodón, manga larga, diseño casual",
+        "url_imagen": "https://ejemplo.com/imagen26.jpg"
+      },
+      {
+        "id": 27,
+        "nombre": "Pantalones deportivos",
+        "precio": "$60.000 COP",
+        "peso": "Peso: 0.5kg",
+        "categoria": "Categoría: Ropa y Accesorios",
+        "características": "Descripción: Pantalones deportivos, material transpirable",
+        "url_imagen": "https://ejemplo.com/imagen27.jpg"
+      },
+      {
+        "id": 28,
+        "nombre": "Buzo de algodón",
+        "precio": "$75.000 COP",
+        "peso": "Peso: 0.6kg",
+        "categoria": "Categoría: Ropa y Accesorios",
+        "características": "Descripción: Buzo de algodón, cómodo y suave",
+        "url_imagen": "https://ejemplo.com/imagen28.jpg"
+      },
+      {
+        "id": 29,
+        "nombre": "Camiseta básica",
+        "precio": "$25.000 COP",
+        "peso": "Peso: 0.2kg",
+        "categoria": "Categoría: Ropa y Accesorios",
+        "características": "Descripción: Camiseta básica de algodón, cuello redondo",
+        "url_imagen": "https://ejemplo.com/imagen29.jpg"
+      },
+      {
+        "id": 30,
+        "nombre": "Jeans para mujer",
+        "precio": "$80.000 COP",
+        "peso": "Peso: 0.8kg",
+        "categoria": "Categoría: Ropa y Accesorios",
+        "características": "Descripción: Jeans para mujer, corte skinny",
+        "url_imagen": "https://ejemplo.com/imagen30.jpg"
+      },
+      {
+        "id": 31,
+        "nombre": "Smartphone iPhone 13",
+        "precio": "$4.000.000 COP",
+        "peso": "Peso: 0.5kg",
+        "categoria": "Categoría: Tecnología",
+        "características": "Descripción: iPhone de última generación, 128 GB",
+        "url_imagen": "https://ejemplo.com/imagen31.jpg"
+      },
+      {
+        "id": 32,
+        "nombre": "Computador Portátil Lenovo ThinkPad X1",
+        "precio": "$5.000.000 COP",
+        "peso": "Peso: 1.5kg",
+        "categoria": "Categoría: Tecnología",
+        "características": "Descripción: Portátil de alto rendimiento, Intel Core i7, 16GB RAM",
+        "url_imagen": "https://ejemplo.com/imagen32.jpg"
+      },
+      {
+        "id": 33,
+        "nombre": "Cargador inalámbrico Samsung",
+        "precio": "$100.000 COP",
+        "peso": "Peso: 0.2kg",
+        "categoria": "Categoría: Tecnología",
+        "características": "Descripción: Cargador inalámbrico, compatible con dispositivos Qi",
+        "url_imagen": "https://ejemplo.com/imagen33.jpg"
+      },
+      {
+        "id": 34,
+        "nombre": "Cable USB-C a USB-C",
+        "precio": "$30.000 COP",
+        "peso": "Peso: 0.1kg",
+        "categoria": "Categoría: Tecnología",
+        "características": "Descripción: Cable USB-C para carga y transferencia de datos",
+        "url_imagen": "https://ejemplo.com/imagen34.jpg"
+      },
+      {
+        "id": 35,
+        "nombre": "Computador Portátil Dell XPS 13",
+        "precio": "$6.000.000 COP",
+        "peso": "Peso: 1.3kg",
+        "categoria": "Categoría: Tecnología",
+        "características": "Descripción: Portátil de alto rendimiento, Intel Core i7, 16GB RAM",
+        "url_imagen": "https://ejemplo.com/imagen35.jpg"
+      },
+      {
+        "id": 36,
         "nombre": "Smartphone Samsung Galaxy S21",
-        "precio": 900000,
-        "peso": "0.5kg",
-        "categoria": "tecnología",
-        "características": "Smartphone de última generación",
-        "url_imagen": "https://tienda.claro.com.co/wcsstore/Claro/images/catalog/equipos/646x1000/70044592.jpg"
+        "precio": "$3.500.000 COP",
+        "peso": "Peso: 0.5kg",
+        "categoria": "Categoría: Tecnología",
+        "características": "Descripción: Smartphone de última generación, 128 GB",
+        "url_imagen": "https://ejemplo.com/imagen36.jpg"
+      },
+      {
+        "id": 37,
+        "nombre": "Computador Portátil HP Spectre x360",
+        "precio": "$4.500.000 COP",
+        "peso": "Peso: 1.3kg",
+        "categoria": "Categoría: Tecnología",
+        "características": "Descripción: Portátil convertible, Intel Core i7, 16GB RAM",
+        "url_imagen": "https://ejemplo.com/imagen37.jpg"
+      },
+      {
+        "id": 38,
+        "nombre": "Cargador de coche USB",
+        "precio": "$50.000 COP",
+        "peso": "Peso: 0.1kg",
+        "categoria": "Categoría: Tecnología",
+        "características": "Descripción: Cargador para coche, dos puertos USB",
+        "url_imagen": "https://ejemplo.com/imagen38.jpg"
+      },
+      {
+        "id": 39,
+        "nombre": "Cable HDMI de alta velocidad",
+        "precio": "$40.000 COP",
+        "peso": "Peso: 0.2kg",
+        "categoria": "Categoría: Tecnología",
+        "características": "Descripción: Cable HDMI para transmisión de audio y video",
+        "url_imagen": "https://ejemplo.com/imagen39.jpg"
+      },
+      {
+        "id": 40,
+        "nombre": "Computador Portátil Asus ZenBook",
+        "precio": "$4.000.000 COP",
+        "peso": "Peso: 1.3kg",
+        "categoria": "Categoría: Tecnología",
+        "características": "Descripción: Portátil ligero, Intel Core i5, 8GB RAM",
+        "url_imagen": "https://ejemplo.com/imagen40.jpg"
+      },
+      {
+        "id": 41,
+        "nombre": "Bombillo LED Philips",
+        "precio": "$20.000 COP",
+        "peso": "Peso: 0.1kg",
+        "categoria": "Categoría: Herramientas y Ferretería",
+        "características": "Descripción: Bombillo LED de bajo consumo, luz blanca",
+        "url_imagen": "https://ejemplo.com/imagen41.jpg"
+      },
+      {
+        "id": 42,
+        "nombre": "Pilas AA Duracell",
+        "precio": "$15.000 COP",
+        "peso": "Peso: 0.05kg",
+        "categoria": "Categoría: Herramientas y Ferretería",
+        "características": "Descripción: Pack de 4 pilas AA alcalinas",
+        "url_imagen": "https://ejemplo.com/imagen42.jpg"
+      },
+      {
+        "id": 43,
+        "nombre": "Candado de acero Stanley",
+        "precio": "$30.000 COP",
+        "peso": "Peso: 0.2kg",
+        "categoria": "Categoría: Herramientas y Ferretería",
+        "características": "Descripción: Candado de acero resistente, tamaño mediano",
+        "url_imagen": "https://ejemplo.com/imagen43.jpg"
+      },
+      {
+        "id": 44,
+        "nombre": "Escalera de aluminio Werner",
+        "precio": "$200.000 COP",
+        "peso": "Peso: 8kg",
+        "categoria": "Categoría: Herramientas y Ferretería",
+        "características": "Descripción: Escalera de aluminio, 5 peldaños",
+        "url_imagen": "https://ejemplo.com/imagen44.jpg"
+      },
+      {
+        "id": 45,
+        "nombre": "Caja de herramientas Stanley",
+        "precio": "$150.000 COP",
+        "peso": "Peso: 2kg",
+        "categoria": "Categoría: Herramientas y Ferretería",
+        "características": "Descripción: Caja de herramientas de plástico resistente, tamaño mediano",
+        "url_imagen": "https://ejemplo.com/imagen45.jpg"
+      },
+      {
+        "id": 46,
+        "nombre": "Alicate de corte Stanley",
+        "precio": "$25.000 COP",
+        "peso": "Peso: 0.3kg",
+        "categoria": "Categoría: Herramientas y Ferretería",
+        "características": "Descripción: Alicate de corte, mango ergonómico",
+        "url_imagen": "https://ejemplo.com/imagen46.jpg"
+      },
+      {
+        "id": 47,
+        "nombre": "Llave inglesa Truper",
+        "precio": "$35.000 COP",
+        "peso": "Peso: 0.6kg",
+        "categoria": "Categoría: Herramientas y Ferretería",
+        "características": "Descripción: Llave inglesa de 8 pulgadas, acero resistente",
+        "url_imagen": "https://ejemplo.com/imagen47.jpg"
+      },
+      {
+        "id": 48,
+        "nombre": "Llave de tubo Stanley",
+        "precio": "$40.000 COP",
+        "peso": "Peso: 0.2kg",
+        "categoria": "Categoría: Herramientas y Ferretería",
+        "características": "Descripción: Llave de tubo de 12mm, acero resistente",
+        "url_imagen": "https://ejemplo.com/imagen48.jpg"
+      },
+      {
+        "id": 49,
+        "nombre": "Set de destornilladores Truper",
+        "precio": "$50.000 COP",
+        "peso": "Peso: 0.5kg",
+        "categoria": "Categoría: Herramientas y Ferretería",
+        "características": "Descripción: Set de 6 destornilladores, planos y de estrella",
+        "url_imagen": "https://ejemplo.com/imagen49.jpg"
+      },
+      {
+        "id": 50,
+        "nombre": "Taladro inalámbrico Bosch",
+        "precio": "$300.000 COP",
+        "peso": "Peso: 1.5kg",
+        "categoria": "Categoría: Herramientas y Ferretería",
+        "características": "Descripción: Taladro inalámbrico, 12V, con batería y cargador",
+        "url_imagen": "https://ejemplo.com/imagen50.jpg"
       }
-    ]
-  }
-  
+
+
+  ]
+}
